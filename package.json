@@ -1,0 +1,26 @@
+{
+  "name": "copia_disneyplus",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/pablonucei/Copia_disneyplus#readme",
+  "bugs": {
+    "url": "https://github.com/pablonucei/Copia_disneyplus/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pablonucei/Copia_disneyplus.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "gulpfile.js",
+  "scripts": {
+    "gulp": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "gulp": "^5.0.1",
+    "gulp-sass": "^6.0.1",
+    "sass": "^1.98.0"
+  }
+}
