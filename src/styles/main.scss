@@ -2,6 +2,8 @@
 @use 'hero';
 @use 'shows';
 @use 'plans';
+@use 'available-devices';
+
 
 
 @font-face {
@@ -111,9 +113,9 @@ color: variaveis.$corTextoPrincipal;
         &__text_container{
             position: absolute;
             top: 0;
+            height: 100%;
             left: 50%;
             width: calc(50% - 5.6vw);
-            height: 100%;
             display: flex;
             flex-direction: column;
             justify-content: center;
